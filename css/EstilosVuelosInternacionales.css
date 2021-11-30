@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold;
+}
+body {
+    background-image: url(../imagenes/ViajesNacionales/backgraund.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.encabezado {
+    background-image: url(../imagenes/ViajesNacionales/banner.jpg);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.logo {
+    margin-top: 15px;
+    margin-left: 200px;
+    width: 60px;
+    height: 60px;
+}
+.izquierda {
+    display: flex;
+    flex-direction: row;
+    margin-right: 200px;
+}
+.titulopagina {
+    color: black;
+    text-align: center;
+    text-decoration:none;
+    font-size: 23px;
+    margin-top: 26px;
+}
+ul {
+    list-style:none;
+    display: block;
+}
+.MenuPrincipal > li {
+    float:left;
+    padding : 0px;
+    margin-top: 30px;
+    margin-right: 100px;
+    font-size: 18px;
+}
+.MenuPrincipal li a {
+    color: black;
+    text-decoration:none;
+    display:block;
+}
+.MenuPrincipal li a:hover {
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+}
+.MenuPrincipal li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+.MenuPrincipal li:hover > ul {
+    display:block;
+    color: black;
+    background-color: azure;
+}
+.MenuPrincipal li ul li {
+    position:relative;
+}
+.submenunacionales > li{
+    border: 1px solid black;
+    padding: 0px;
+    margin: 2px;
+}
+.SubmenuInternacionales > li {
+    border: 1px solid black;
+    padding: 0px;
+    margin: 2px;
+}
+.Pestaña {
+    position: absolute;
+    left: 1200px;
+}
+.Viajes {
+    width: 20%;
+    height: 20%;
+}
+.InicioSesion {
+    width: 20%;
+    height: 20%;
+    margin-left: 15px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+}
+#bloquesuperior {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 5px;
+    margin: 5px;
+    border: 0px;
+}
+#bloqueinferior {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 5px;
+    margin: 5px;
+}
+img {
+    width: 250px;
+    height: 220px;
+}
+.a {
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+}
+.alemania {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.australia {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.brasil {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.china {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.españa {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.estadosunidos {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.italia {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}.portugal {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+img.transformacion {
+    -moz-transition: all 1000ms ease-in-out;
+    -webkit-transition: all 1000ms ease-in-out;
+    transition: all 1000ms ease-in-out;
+}
+img.transformacion:hover {
+    transform: scale(1.1,1.1);
+}

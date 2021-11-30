@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold;
+}
+body {
+    background-image: url(../imagenes/ViajesNacionales/backgraund.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+h2 {
+    padding: 10px;
+    font-family: cursive;
+    text-decoration: underline;
+}
+.guia1 {
+    display: flex;
+    flex-direction: row;
+}
+.guia2 {
+    display: flex;
+    flex-direction: row;
+}
+div img {
+    width: 300px;
+	height: 150px;
+}
+.arequipa {
+    width: 30%;
+    margin: 10px;
+	padding: 15px;
+    flex-direction: column;
+    justify-content: center;
+    border: 5px solid rgb(255, 166, 0);
+    background-color: white;
+}
+.ayacucho {
+    width: 30%;
+    margin: 10px;
+	padding: 15px;
+    flex-direction: column;
+    justify-content: center;
+    border: 5px solid rgb(255, 166, 0);
+    background-color: white;
+}
+.cajamarca {
+    width: 30%;
+    margin: 10px;
+	padding: 15px;
+    flex-direction: column;
+    justify-content: center;
+    border: 5px solid rgb(255, 166, 0);
+    background-color: white;
+}
+.cusco {
+    width: 30%;
+    margin: 10px;
+	padding: 15px;
+    flex-direction: column;
+    justify-content: center;
+    border: 5px solid rgb(255, 166, 0);
+    background-color: white;
+}
+.jauja {
+    width: 30%;
+    margin: 10px;
+	padding: 15px;
+    flex-direction: column;
+    justify-content: center;
+    border: 5px solid rgb(255, 166, 0);
+    background-color: white;
+}
+.juliaca {
+    width: 30%;
+    margin: 10px;
+	padding: 17px;
+    flex-direction: column;
+    justify-content: center;
+    border: 5px solid rgb(255, 166, 0);
+    background-color: white;
+}
+.pucallpa {
+    width: 30%;
+    margin: 10px;
+	padding: 15px;
+    flex-direction: column;
+    justify-content: center;
+    border: 5px solid rgb(255, 166, 0);
+    background-color: white;
+}
+.trujillo {
+    width: 30%;
+    margin: 10px;
+	padding: 15px;
+    flex-direction: column;
+    justify-content: center;
+    border: 5px solid rgb(255, 166, 0);
+    background-color: white;
+}
+.guia3 {
+    display: flex;
+    flex-direction: row;
+}
+.guia4 {
+    display: flex;
+    flex-direction: row;
+}
+.alemania {
+    width: 30%;
+    margin: 10px;
+	padding: 15px;
+    flex-direction: column;
+    justify-content: center;
+    border: 5px solid rgb(255, 166, 0);
+    background-color: white;
+}    
+.australia {
+    width: 30%;
+    margin: 10px;
+	padding: 15px;
+    flex-direction: column;
+    justify-content: center;
+    border: 5px solid rgb(255, 166, 0);
+    background-color: white;
+}    
+.brasil {
+    width: 30%;
+    margin: 10px;
+	padding: 15px;
+    flex-direction: column;
+    justify-content: center;
+    border: 5px solid rgb(255, 166, 0);
+    background-color: white;
+}    
+.china {
+    width: 30%;
+    margin: 10px;
+	padding: 15px;
+    flex-direction: column;
+    justify-content: center;
+    border: 5px solid rgb(255, 166, 0);
+    background-color: white;
+}    
+.españa {
+    width: 30%;
+    margin: 10px;
+	padding: 15px;
+    flex-direction: column;
+    justify-content: center;
+    border: 5px solid rgb(255, 166, 0);
+    background-color: white;
+}    
+.estadosunidos {
+    width: 30%;
+    margin: 10px;
+	padding: 15px;
+    flex-direction: column;
+    justify-content: center;
+    border: 5px solid rgb(255, 166, 0);
+    background-color: white;
+}    
+.italia {
+    width: 30%;
+    margin: 10px;
+	padding: 15px;
+    flex-direction: column;
+    justify-content: center;
+    border: 5px solid rgb(255, 166, 0);
+    background-color: white;
+}    
+.portugal {
+    width: 30%;
+    margin: 10px;
+	padding: 15px;
+    flex-direction: column;
+    justify-content: center;
+    border: 5px solid rgb(255, 166, 0);
+    background-color: white;
+}    
+img.transformacion {
+    -moz-transition: all 1000ms ease-in-out;
+    -webkit-transition: all 1000ms ease-in-out;
+    transition: all 1000ms ease-in-out;
+}
+img.transformacion:hover {
+    transform: scale(1.1, 1.1) ;
+}
