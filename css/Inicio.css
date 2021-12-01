@@ -5,6 +5,7 @@
     box-sizing: border-box;
     font-family: 'Montserrat Alternates', sans-serif;
     font-weight: bold;
+    text-decoration: none;
 }
 body {
     background-image: url(../imagenes/ViajesNacionales/backgraund.jpg);
@@ -38,7 +39,7 @@ body {
     text-align: center;
     text-decoration:none;
     font-size: 23px;
-    margin-top: 26px;
+    margin-top: 28px;
 }
 ul {
     list-style:none;
@@ -100,10 +101,12 @@ ul {
     float: right;
   }
 h2 {
-    background-image: url(../imagenes/Inicio/BannerInicio.png);
-    width: 995%;
+    background-image: url(../imagenes/Inicio/BannerInicio.jpg);
+    width: 2000px;
+    background-repeat: no-repeat;
     height: 400px;
     display: flex;
+
     flex-direction: column;
     justify-content: center;
     text-align: center;
