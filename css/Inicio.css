@@ -5,6 +5,9 @@
     box-sizing: border-box;
     font-family: 'Montserrat Alternates', sans-serif;
     font-weight: bold;
+    text-decoration: none;
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
 }
 body {
     background-image: url(../imagenes/ViajesNacionales/backgraund.jpg);
@@ -13,118 +16,137 @@ body {
     background-repeat: no-repeat;
 }
 .encabezado {
-    background-image: url(../imagenes/ViajesNacionales/banner.jpg);
+    background-color: rgba(0, 0, 0, 0.623);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
 }
 .logo {
-    margin-top: 15px;
+    margin-top: 25px;
     margin-left: 200px;
     width: 60px;
     height: 60px;
+}
+.titulopagina {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration:none;
+    font-size: 18px;
+    margin: 45px auto;
+    width: 120%;
 }
 .izquierda {
     display: flex;
     flex-direction: row;
     margin-right: 200px;
 }
-.titulopagina {
-    color: black;
-    text-align: center;
-    text-decoration:none;
-    font-size: 23px;
-    margin-top: 26px;
+.derecha {
+    font-size: 18px; 
 }
-ul {
-    list-style:none;
-    display: block;
+
+/*barra de navegacion*/
+.navegacion{
+	width: 1000px;
+    margin: 30px auto;
+	
+	background: rgba(255, 255, 255, 0);
 }
-.MenuPrincipal > li {
-    float:left;
-    padding : 0px;
-    margin-top: 30px;
-    margin-right: 100px;
-    font-size: 18px;
+
+.navegacion ul{
+	list-style: none;
 }
-.MenuPrincipal li a {
-    color: black;
-    text-decoration:none;
-    display:block;
+
+.menu > li{
+	position: relative;
+    right: 40px;
+	display: inline-block;
 }
-.MenuPrincipal li a:hover {
-    text-decoration: underline;
-    color: rgb(255, 255, 255);
+
+.menu > li > a{
+	display: block;
+	padding: 15px 10px;
+	color: #ffffff;
+	text-decoration: none;
 }
-.MenuPrincipal li ul {
-    display:none;
-    position:absolute;
-    min-width:140px;
+
+.menu li a:hover{
+	color: #CE7D35;
+	transition: all .3s;
 }
-.MenuPrincipal li:hover > ul {
-    display:block;
-    color: black;
-    background-color: azure;
+
+/* Submenu*/
+.submenu{
+	position: absolute;
+	background: #333333;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
 }
-.MenuPrincipal li ul li {
-    position:relative;
+
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	text-decoration: none;
 }
-.submenunacionales > li{
-    border: 1px solid black;
-    padding: 0px;
-    margin: 2px;
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
 }
-.SubmenuInternacionales > li {
-    border: 1px solid black;
-    padding: 0px;
-    margin: 2px;
-}
+/*termino de barra de navegacion*/
 .Pestaña {
     width: 100%;
     position: fixed;
     float: right;
-  }
-  .Viajes {
+}
+.Viajes {
     width: 2%;
     height: 2%;
     float: right;
-  }
-  .InicioSesion {
+}
+.InicioSesion {
     width: 2%;
     height: 2%;
     margin-left: 15px;
     float: right;
-  }
-h2 {
-    background-image: url(../imagenes/Inicio/BannerInicio.jpg);
-    width: 1000%;
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
+}
+main {
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: white;
+}
+.bannerbajoenc{
+    width: 1503px;
 }
 .guias {
     justify-content: space-evenly;
 }
 .GuiaTuristica{
     background-image: url(../imagenes/Inicio/GuiasTuristicas.jpg);
-    width: 580px;
+    width: 714px;
     height: 250px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: left;
+    margin-top: 15px;
 }
 .MejoresOpciones {
     background-image: url(../imagenes/Inicio/MejoresDestinos.jpg);
-    width: 580px;
+    width: 714px;
     height: 250px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: left;
+    background-repeat: no-repeat;
+    margin-top: 15px;
 }
 div {
     display: flex;
@@ -204,6 +226,10 @@ nav {
 	justify-content: space-between;
 	padding: 9px 5px;
 	align-items: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 .redes {
     width: 50px;
