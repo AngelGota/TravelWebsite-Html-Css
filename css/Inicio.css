@@ -84,21 +84,22 @@ ul {
     margin: 2px;
 }
 .Pestaña {
-    width: 100%;
+    display: block;
     position: fixed;
+    right: 0px;
+
+}
+.Viajes {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
     float: right;
-  }
-  .Viajes {
-    width: 2%;
-    height: 2%;
-    float: right;
-  }
-  .InicioSesion {
-    width: 2%;
-    height: 2%;
-    margin-left: 15px;
-    float: right;
-  }
+}
+.InicioSesion {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
 h2 {
     background-image: url(../imagenes/Inicio/BannerInicio.png);
     width: 995%;
