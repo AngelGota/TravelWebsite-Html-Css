@@ -13,25 +13,28 @@ body {
     background-repeat: no-repeat;
 }
 .encabezado {
-    background-image: url(../imagenes/ViajesNacionales/banner.jpg);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0px;
+    left: 0px;
     width: 100%;
+    height: 100px;
+    padding: 0;
+    margin: 0;
+    position: fixed;
 }
 .logo {
     margin-top: 15px;
-    margin-left: 200px;
+    margin-left: 100px;
     width: 60px;
     height: 60px;
 }
 .izquierda {
     display: flex;
     flex-direction: row;
-    margin-right: 200px;
+    margin-right: 100px;
 }
 .titulopagina {
-    color: black;
+    color: rgb(255, 255, 255);
     text-align: center;
     text-decoration:none;
     font-size: 23px;
