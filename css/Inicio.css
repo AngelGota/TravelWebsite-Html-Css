@@ -98,20 +98,21 @@ body {
 }
 /*termino de barra de navegacion*/
 .Pestaña {
-    width: 100%;
+    display: block;
     position: fixed;
-    float: right;
+    right: 0px;
+
 }
 .Viajes {
-    width: 2%;
-    height: 2%;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
     float: right;
 }
 .InicioSesion {
-    width: 2%;
-    height: 2%;
-    margin-left: 15px;
-    float: right;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
 }
 main {
     display: inline-block;
