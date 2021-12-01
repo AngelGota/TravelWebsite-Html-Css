@@ -5,7 +5,6 @@
     box-sizing: border-box;
     font-family: 'Montserrat Alternates', sans-serif;
     font-weight: bold;
-    text-decoration: none;
 }
 body {
     background-image: url(../imagenes/ViajesNacionales/backgraund.jpg);
@@ -14,32 +13,29 @@ body {
     background-repeat: no-repeat;
 }
 .encabezado {
-    background-color: rgba(0, 0, 0, 0.8);
-    top: 0px;
-    left: 0px;
+    background-image: url(../imagenes/ViajesNacionales/banner.jpg);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     width: 100%;
-    height: 100px;
-    padding: 0;
-    margin: 0;
-    position: fixed;
 }
 .logo {
     margin-top: 15px;
-    margin-left: 100px;
+    margin-left: 200px;
     width: 60px;
     height: 60px;
 }
 .izquierda {
     display: flex;
     flex-direction: row;
-    margin-right: 100px;
+    margin-right: 200px;
 }
 .titulopagina {
-    color: rgb(255, 255, 255);
+    color: black;
     text-align: center;
     text-decoration:none;
     font-size: 23px;
-    margin-top: 28px;
+    margin-top: 26px;
 }
 ul {
     list-style:none;
@@ -48,7 +44,6 @@ ul {
 .MenuPrincipal > li {
     float:left;
     padding : 0px;
-    position: static;
     margin-top: 30px;
     margin-right: 100px;
     font-size: 18px;
@@ -86,26 +81,24 @@ ul {
     margin: 2px;
 }
 .Pestaña {
-    display: block;
+    width: 100%;
     position: fixed;
-    right: 0px;
-
-}
-.Viajes {
-    width: 30px;
-    height: 30px;
-    margin: 5px;
     float: right;
-}
-.InicioSesion {
-    width: 30px;
-    height: 30px;
-    margin: 5px;
-}
+  }
+  .Viajes {
+    width: 2%;
+    height: 2%;
+    float: right;
+  }
+  .InicioSesion {
+    width: 2%;
+    height: 2%;
+    margin-left: 15px;
+    float: right;
+  }
 h2 {
     background-image: url(../imagenes/Inicio/BannerInicio.jpg);
-    width: 2000px;
-    background-repeat: no-repeat;
+    width: 1000%;
     height: 200px;
     display: flex;
     flex-direction: column;
