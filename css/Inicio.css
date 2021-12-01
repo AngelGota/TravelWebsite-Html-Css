@@ -179,11 +179,13 @@ nav {
     border: 1px solid black;
 }
 .destinos1 img {
+    border-radius: 15px;
     width: 250px;
 	height: 130px;
     margin: 5px;
 }
 .destinos2 img {
+    border-radius: 15px;
     width: 250px;
 	height: 130x;
     margin: 5px;
