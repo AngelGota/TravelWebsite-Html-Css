@@ -86,19 +86,19 @@ ul {
     width: 100%;
     position: fixed;
     float: right;
-  }
-  .Viajes {
-    width: 1%;
+}
+.Viajes {
+    width: 1.5%;
     height: 2%;
     float: right;
     margin: 5px;
-  }
-  .InicioSesion {
-    width: 1%;
+}
+.InicioSesion {
+    width: 1.5%;
     height: 2%;
     float: right;
     margin: 5px;
-  }
+}
 main {
     display: flex;
     flex-direction: column;
