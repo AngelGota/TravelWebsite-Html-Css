@@ -284,6 +284,7 @@ ul {
     justify-content: space-around;
 }
 .footer{
+    margin-top: 15px;
     color: black;
 	background-color: rgb(1, 183, 255);
 	display: flex;
