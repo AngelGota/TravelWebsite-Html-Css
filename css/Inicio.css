@@ -121,10 +121,10 @@ main {
     margin-right: 200px;
     background-color: white;
 }
-.bannerbajoenc img{
+.banner{
     width: 1000%;
 }
-.guias {
+.guias{
     justify-content: space-evenly;
 }
 .GuiaTuristica{

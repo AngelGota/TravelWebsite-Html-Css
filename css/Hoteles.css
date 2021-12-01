@@ -196,32 +196,32 @@ img {
     border: 1px solid black;
     display: inline-flex;
     flex-direction: column;
-    margin-right: 5px;
-    margin-left: 10px;
+    margin-right: 30px;
+    margin-left: 150px;
     margin-bottom: 10px;
 }
 .estadosunidos {
     border: 1px solid black;
     display: inline-flex;
     flex-direction: column;
-    margin-right: 5px;
-    margin-left: 10px;
+    margin-right: 30px;
+    margin-left: 30px;
     margin-bottom: 10px;
 }
 .italia {
     border: 1px solid black;
     display: inline-flex;
     flex-direction: column;
-    margin-right: 5px;
-    margin-left: 10px;
+    margin-right: 30px;
+    margin-left: 30px;
     margin-bottom: 10px;
 }
 .china {
     border: 1px solid black;
     display: inline-flex;
     flex-direction: column;
-    margin-right: 5px;
-    margin-left: 10px;
+    margin-right: 30px;
+    margin-left: 30px;
     margin-bottom: 10px;
 }
 .footer{
