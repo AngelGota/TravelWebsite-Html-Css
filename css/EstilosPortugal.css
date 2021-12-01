@@ -61,6 +61,7 @@ ul {
     display:none;
     position:absolute;
     min-width:140px;
+    z-index: 20;
 }
 .MenuPrincipal li:hover > ul {
     display:block;
@@ -69,6 +70,7 @@ ul {
 }
 .MenuPrincipal li ul li {
     position:relative;
+    
 }
 .submenunacionales > li{
     border: 1px solid black;
@@ -86,8 +88,84 @@ ul {
 }
 .Viajes {
     width: 20%;
+    height: 20%;
 }
 .InicioSesion {
     width: 20%;
+    height: 20%;
     margin-left: 15px;
 }
+/**/
+.cuerpo{
+    background-color: white;
+    width: 70%;
+    margin: 3% auto;
+    padding-top: 3%;
+}
+.uno{
+    margin: 0% auto;
+    width: 90%;
+    background-color: white;
+    padding-bottom: 20px;
+    position: relative;
+
+}
+.uno img{
+    width: 50%;
+    display: block;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+.uno img:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+}
+article h1{
+    font-size: 50px;
+    text-align: center;
+}
+.fecha{
+    margin: 50px;
+    padding: 50px;
+    justify-content: space-between;
+    border: solid 1px black;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+.fecha:hover{
+    border: solid 2px rgb(17,131,124);
+    background-color: rgb(231,244,243);
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+.fecha .precio{
+    float: right;
+    margin-top: 15px;
+}
+.unou a{
+    text-decoration: none;
+    color: black;
+}
+/**/
