@@ -81,15 +81,19 @@ ul {
     margin: 2px;
 }
 .Pestaña {
-    position: absolute;
-    left: 1200px;
+    display: block;
+    position: fixed;
+    right: 0px;
+
 }
 .Viajes {
-    width: 20%;
-    height: 20%;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    float: right;
 }
 .InicioSesion {
-    width: 20%;
-    height: 20%;
-    margin-left: 15px;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
 }

@@ -90,6 +90,7 @@ ul {
     width: 30px;
     height: 30px;
     margin: 5px;
+    float: right;
 }
 .InicioSesion {
     width: 30px;

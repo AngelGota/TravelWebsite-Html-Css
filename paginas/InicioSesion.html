@@ -9,7 +9,12 @@
     <link rel="shortcut icon" href="../imagenes/icono.png" type="image/x-icon">
 	<link rel="icon" href="../imagenes/icono.png" type="image/x-icon">
     <link rel="stylesheet" href="../css/fontellocss/fontello.css">
+
 </head>
+<div class="Pestaña">
+    <a href="../paginas/Viajes.html"><img class="Viajes" src="../imagenes/Viajes.png"></a>
+    <a href="../paginas/InicioSesion.html"><img class="InicioSesion" src="../imagenes/InicioSesion.png"></a>
+</div>
 <body>
     <header class="encabezado">
         <div class="izquierda">
@@ -46,10 +51,45 @@
             <li><a href="../paginas/Hoteles.html">Hoteles</a></li>
             <li><a href="../paginas/Contactanos.html">Contactanos</a></li>
         </ul>
-        <div class="Pestaña">
-            <a href="../paginas/Viajes.html"><img class="Viajes" src="../imagenes/Viajes.png"></a>
-            <a href="../paginas/InicioSesion.html"><img class="InicioSesion" src="../imagenes/InicioSesion.png"></a>
-        </div>
     </header>
+
+    <nav>
+        <div class="contact_form">
+            <div class="formulario">
+                <h1>Registro</h1>
+                <h3>Registrate para ser el primero en enterarte de nuestras ofertas!</h3>
+                <form action="submeter-formulario.php" method="post">       
+                        <p>
+                        <label for="nombre" class="colocar_nombre">Nombre
+                            <span class="obligatorio">*</span>
+                        </label>
+                            <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                        </p>
+                    
+                        <p>
+                        <label for="email" class="colocar_email">Email
+                            <span class="obligatorio">*</span>
+                        </label>
+                            <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                        </p>
+
+                        <p>
+                        <label for="contraseña" class="colocar_email">Contraseña
+                            <span class="obligatorio">*</span>
+                        </label>
+                            <input type="password" name="contraseña" id="password" required="obligatorio" placeholder="Ingrese su contraseña">
+                        </p>
+                    
+                        <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+
+                        
+
+                        <p class="aviso">
+                            <span class="obligatorio"> * </span>los campos son obligatorios.
+                        </p>          
+                </form>
+            </div>  
+        </div>
+    </nav>
 </body>
 </html>
