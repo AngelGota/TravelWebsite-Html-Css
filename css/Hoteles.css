@@ -5,6 +5,9 @@
     box-sizing: border-box;
     font-family: 'Montserrat Alternates', sans-serif;
     font-weight: bold;
+    text-decoration: none;
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
 }
 body {
     background-image: url(../imagenes/ViajesNacionales/backgraund.jpg);
@@ -13,73 +16,86 @@ body {
     background-repeat: no-repeat;
 }
 .encabezado {
-    background-image: url(../imagenes/ViajesNacionales/banner.jpg);
+    background-color: rgba(0, 0, 0, 0.623); /**/
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
 }
 .logo {
-    margin-top: 15px;
+    margin-top: 25px;
     margin-left: 200px;
     width: 60px;
     height: 60px;
+}
+.titulopagina {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration:none;
+    font-size: 18px;
+    margin: 45px auto;
+    width: 120%;
 }
 .izquierda {
     display: flex;
     flex-direction: row;
     margin-right: 200px;
 }
-.titulopagina {
-    color: black;
-    text-align: center;
-    text-decoration:none;
-    font-size: 23px;
-    margin-top: 26px;
+.derecha {
+    font-size: 18px; 
 }
-ul {
-    list-style:none;
-    display: block;
+
+/*barra de navegacion*/
+.navegacion{
+	width: 1000px;
+    margin: 30px auto;
+	background: rgba(255, 255, 255, 0);
 }
-.MenuPrincipal > li {
-    float:left;
-    padding : 0px;
-    margin-top: 30px;
-    margin-right: 100px;
-    font-size: 18px;
+
+.navegacion ul{
+	list-style: none;
 }
-.MenuPrincipal li a {
-    color: black;
-    text-decoration:none;
-    display:block;
+
+.menu > li{
+	position: relative;
+    right: 40px;
+	display: inline-block;
 }
-.MenuPrincipal li a:hover {
-    text-decoration: underline;
-    color: rgb(255, 255, 255);
+
+.menu > li > a{
+	display: block;
+	padding: 15px 10px;
+	color: #ffffff;
+	text-decoration: none;
 }
-.MenuPrincipal li ul {
-    display:none;
-    position:absolute;
-    min-width:140px;
+
+.menu li a:hover{
+	color: #CE7D35;
+	transition: all .3s;
 }
-.MenuPrincipal li:hover > ul {
-    display:block;
-    color: black;
-    background-color: azure;
+
+/* Submenu*/
+.submenu{
+	position: absolute;
+	background: #333333;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
 }
-.MenuPrincipal li ul li {
-    position:relative;
+
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	text-decoration: none;
 }
-.submenunacionales > li{
-    border: 1px solid black;
-    padding: 0px;
-    margin: 2px;
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
 }
-.SubmenuInternacionales > li {
-    border: 1px solid black;
-    padding: 0px;
-    margin: 2px;
-}
+/*termino de barra de navegacion*/
 .Pestaña {
     display: block;
     position: fixed;
@@ -99,36 +115,33 @@ ul {
     
 }
 main {
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: white;
+}
+.bloquesuperior {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 15px;
+    text-align: left;
+    margin-top: 15px;
 }
-#bloquesuperior {
+.bloqueinferior {
     display: flex;
     flex-direction: column;
-    padding: 5px;
-    margin: 5px;
-    border: 0px;
-}
-#bloqueinferior {
-    display: flex;
-    flex-direction: column;
-    padding: 5px;
-    margin: 5px;
+    justify-content: center;
+    text-align: left;
+    margin-top: 15px;
 }
 h2 {
-    font-family: cursive;
-    text-decoration: underline;
+    
+    margin-left: 10px;
+    text-decoration: dotted;
 }
-#Lugares {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding: 5px;
-    margin: 5px;
-    border: 0px;
-}
+
 img {
     width: 250px;
     height: 220px;
@@ -138,47 +151,78 @@ img {
     text-decoration: none;
     background-color: white;
     color: black;
-    font-size: 25px;
+    font-size: 20px;
 }
 .cuzco {
     border: 1px solid black;
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
+    margin-right: 30px;
+    margin-left: 150px;
 }
 .trujillo {
     border: 1px solid black;
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
+    margin-right: 30px;
+    margin-left: 30px;
 }
 .arequipa {
     border: 1px solid black;
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.salto {
+    color: #fff;
+    font-size: 17px;
 }
 .ayacucho {
     border: 1px solid black;
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.cajamarca{
+    border: 1px solid black;
+    display: inline-flex;
+    flex-direction: column;
+    margin-right: 30px;
+    margin-left: 30px;
 }
 .alemania {
     border: 1px solid black;
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
+    margin-right: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
 .estadosunidos {
     border: 1px solid black;
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
+    margin-right: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
 .italia {
     border: 1px solid black;
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
+    margin-right: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
 .china {
     border: 1px solid black;
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
+    margin-right: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
 .footer{
     color: black;
@@ -187,6 +231,10 @@ img {
 	justify-content: space-between;
 	padding: 9px 5px;
 	align-items: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 .redes {
     width: 50px;
