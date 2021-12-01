@@ -111,6 +111,7 @@ h2 {
 }
 .MejoresOpciones {
     background-image: url(../imagenes/Inicio/MejoresDestinos.jpg);
+    background-repeat: no-repeat;
     width: 650px;
     height: 250px;
     display: flex;
