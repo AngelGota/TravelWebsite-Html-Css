@@ -215,3 +215,16 @@ p{
   outline:0;
   border: 1px solid #97d848;
 }
+.footer{
+  color: black;
+  background-color: rgb(1, 183, 255);
+  display: flex;
+  justify-content: space-between;
+  padding: 9px 5px;
+  align-items: center;
+}
+.redes {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
