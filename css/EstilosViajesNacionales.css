@@ -82,16 +82,23 @@ ul {
     padding: 0px;
     margin: 2px;
 }
-.Viajes {
-    width: 4%;
-    height: 4%;
+.Pestaña {
+    width: 100%;
+    position: fixed;
     float: right;
-}
-.InicioSesion {
-    width: 2%;
+  }
+  .Viajes {
+    width: 1%;
     height: 2%;
     float: right;
-}
+    margin: 5px;
+  }
+  .InicioSesion {
+    width: 1%;
+    height: 2%;
+    float: right;
+    margin: 5px;
+  }
 main {
     display: flex;
     flex-direction: column;
