@@ -101,10 +101,13 @@ ul {
 .conocenos{
     padding-left: 20%;
     padding-right: 20%;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 /* articulo uno */
 .uno{
+    width: 100%;
     margin-top: 20px;
     background-color: rgb(199, 199, 199);
     padding:3% ;
@@ -141,11 +144,13 @@ ul {
 }
 /* articulo dos */
 .dos{
-    width: 120%;
+    width: 100%;
     margin-top: 10px;
     background-color: rgb(199, 199, 199);
     padding:3%;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
     border-radius: 15px;
     -webkit-border-radius: 15px;
