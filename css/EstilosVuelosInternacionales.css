@@ -5,6 +5,9 @@
     box-sizing: border-box;
     font-family: 'Montserrat Alternates', sans-serif;
     font-weight: bold;
+    text-decoration: none;
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
 }
 body {
     background-image: url(../imagenes/ViajesNacionales/backgraund.jpg);
@@ -13,14 +16,14 @@ body {
     background-repeat: no-repeat;
 }
 .encabezado {
-    background-image: url(../imagenes/ViajesNacionales/banner.jpg);
+    background-color: rgba(0, 0, 0, 0.623);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
 }
 .logo {
-    margin-top: 15px;
+    margin-top: 25px;
     margin-left: 200px;
     width: 60px;
     height: 60px;
@@ -31,55 +34,68 @@ body {
     margin-right: 200px;
 }
 .titulopagina {
-    color: black;
+    color: rgb(255, 255, 255);
     text-align: center;
     text-decoration:none;
-    font-size: 23px;
-    margin-top: 26px;
-}
-ul {
-    list-style:none;
-    display: block;
-}
-.MenuPrincipal > li {
-    float:left;
-    padding : 0px;
-    margin-top: 30px;
-    margin-right: 100px;
     font-size: 18px;
+    margin: 45px auto;
+    width: 120%;
 }
-.MenuPrincipal li a {
-    color: black;
-    text-decoration:none;
-    display:block;
+.derecha {
+    font-size: 18px; 
 }
-.MenuPrincipal li a:hover {
-    text-decoration: underline;
-    color: rgb(255, 255, 255);
+
+/*barra de navegacion*/
+.navegacion{
+	width: 1000px;
+    margin: 30px auto;
+	background: rgba(255, 255, 255, 0);
 }
-.MenuPrincipal li ul {
-    display:none;
-    position:absolute;
-    min-width:140px;
+
+.navegacion ul{
+	list-style: none;
 }
-.MenuPrincipal li:hover > ul {
-    display:block;
-    color: black;
-    background-color: azure;
+
+.menu > li{
+	position: relative;
+    right: 40px;
+	display: inline-block;
 }
-.MenuPrincipal li ul li {
-    position:relative;
+
+.menu > li > a{
+	display: block;
+	padding: 15px 10px;
+	color: #ffffff;
+	text-decoration: none;
 }
-.submenunacionales > li{
-    border: 1px solid black;
-    padding: 0px;
-    margin: 2px;
+
+.menu li a:hover{
+	color: #CE7D35;
+	transition: all .3s;
 }
-.SubmenuInternacionales > li {
-    border: 1px solid black;
-    padding: 0px;
-    margin: 2px;
+
+/* Submenu*/
+.submenu{
+	position: absolute;
+	background: #333333;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
 }
+
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+/*termino de barra de navegacion*/
 .Pestaña {
     display: block;
     position: fixed;
