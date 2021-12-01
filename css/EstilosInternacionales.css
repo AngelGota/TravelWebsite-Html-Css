@@ -83,17 +83,21 @@ ul {
     margin: 2px;
 }
 .Pestaña {
-    position: absolute;
-    left: 1200px;
+    display: block;
+    position: fixed;
+    right: 0px;
+
 }
 .Viajes {
-    width: 20%;
-    height: 20%;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    float: right;
 }
 .InicioSesion {
-    width: 20%;
-    height: 20%;
-    margin-left: 15px;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
 }
 /**/
 .cuerpo{
@@ -102,6 +106,7 @@ ul {
     margin: 3% auto;
     padding-top: 3%;
 }
+
 .uno{
     margin: 0% auto;
     width: 90%;
@@ -111,8 +116,8 @@ ul {
 
 }
 .uno img{
-    width: 50%;
     display: block;
+    width: 50%;
     transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -176,9 +181,9 @@ article h1{
     justify-content: space-between;
     padding: 9px 5px;
     align-items: center;
-}
-.redes {
+  }
+  .redes {
     width: 50px;
     height: 50px;
     cursor: pointer;
-}
+  }
